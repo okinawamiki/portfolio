@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="images/slick.css">
+    <link rel="stylesheet" href="images/slick-theme.css">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="images/jquery-3.6.0.min.js"></script>
+    <script src="images/slick.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>蒼乃建設</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="page_header_wrapper">
+        <div class="header_logo_menu">
+          <div class="header_logo">
+            <a href="#"><img src="images/header_logo.png" alt="蒼乃建設ロゴ"></a>
+          </div>
+          <div id="drawer_toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav id="global_nav">
+            <ul id="header_menu">
+              <li><a href="#section01">企業理念</a></li>
+              <li><a href="#section02">施工事例</a></li>
+              <li><a href="#section03">採用情報</a></li>
+              <li><a href="#section04">お問い合わせ</a></li>
+            </ul>
+          </nav>
+          
+        </div>
+        <div class="header_pr">
+          <p>街を作る。未来を作る。</p>
+        </div>
+      </header>
+
+      <main class="main_wrapper">
+        <section class="main_news">
+          <div class="news_title">
+            <h2>お知らせ</h2>
+          </div>
+          <div class="news_list">
+            <ul class="news_ul">
+              <a href="#"><li class="news_li">
+                <time datetime="2020-11-17">2020.11.17</time>
+                <p class="news_info">お知らせ</p>
+                <p class="news_p">本社打合せ室が完成しました。</p>
+              </li></a>
+            </ul>
+            <ul class="news_ul">
+              <a href="#"><li class="news_li">
+                <time datetime="2020-11-10">2020.11.10</time>
+                <p class="news_info">お知らせ</p>
+                <p class="news_p">【メディア掲載】住宅雑誌&nbsp;2020年11月号</p>
+              </li></a>
+            </ul>
+            <ul class="news_ul">
+              <a href="#"><li class="news_li">
+                <time datetime="2020-11-01">2020.11.01</time>
+                <p class="news_info">お知らせ</p>
+                <p class="news_p">ホームページが完成しました。</p>
+              </li></a>
+            </ul>
+          </div>
+        </section>
+        <section class="main_build">
+          <div class="scroll-fade">
+            <div class="build_title" id="section02">
+              <h2>施工事例</h2>
+            </div>
+            <div class="build_photos">
+              <div class="photo">
+                <div id="tab-box">
+                  <a class="tab_menu active" id="#item1">画像１</a>
+                  <a class="tab_menu" id="#item2">画像２</a>
+                  <a class="tab_menu" id="#item3">画像３</a>
+                  <div class="tab_item active" id="item1"><img src="images/building1.png" class="photo1"></div>
+                  <div class="tab_item" id="item2"><img src="images/building12.png" class="photo1"></div>
+                  <div class="tab_item" id="item3"><img src="images/building13.png" class="photo1"></div>
+                </div>
+                <h3>Ｍ様邸新築工事</h3>
+                <p class="building_place">埼玉県</p>
+                <div class="building_deteil">
+                  <p class="deteil">▷&nbsp;詳細を見る</p>
+                  <div class="deteil-a">
+                    <p>完 成 年 月：2009年竣工　</p>
+                    <p>建 築 構 造：RC造2階建て</p>
+                    <p>延べ床面積：123.4&nbsp㎡　&nbsp　</p>
+                  </div>               
+                </div>
+              </div>
+              <div class="photo">
+                <ul class="slider">
+                  <li><img src="images/building2.png" class="photo1"></li>
+                  <li><img src="images/building11.png" class="photo1"></li>
+                  <li><img src="images/building12.png" class="photo1"></li>
+                  <li><img src="images/building13.png" class="photo1"></li>
+                </ul>
+                <h3>スカイビル</h3>
+                <p class="building_place">東京都</p>
+                <div class="building_deteil">
+                  <p class="deteil">▷&nbsp;詳細を見る</p>
+                  <div class="deteil-a">
+                    <p>完 成 年 月：2012年竣工&nbsp　</p>
+                    <p>建 築 構 造：RC造12階建て</p>
+                    <p>延べ床面積：1023.4&nbsp㎡　&nbsp　</p>
+                  </div>               
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main_build_menu">
+            <div class="content">
+              <a class="js-modal-open" href=""><h4>施工実績一覧</h4></a>
+            </div>  
+            <div class="modal js-modal">
+              <div class="modal-bg js-modal-close"></div>
+              <ul class="modal-content">
+                <li><img src="images/building11.png">2000年　11月竣工</li>
+                <li><img src="images/building12.png">2000年　12月竣工</li>
+                <li><img src="images/building13.png">2010年　1月竣工</li> 
+                <li><img src="images/building14.png">2011年　10月竣工</li>
+                <a class="js-modal-close" href="">×</a>
+              </ul>
+            </div>
+          </div>
+          <div id="gray-display"></div>
+          <div id="large-img"></div>
+        </section>
+        <section class="company">
+          <div class="company_item tab_box" id="section03">
+            <!-- <div class="btn_area">
+              <p class="tab_btn active">tab1</p> 
+              <p class="tab_btn">正社員</p>
+              <p class="tab_btn">パート</p>
+            </div>
+            <div class="panel_area"> -->
+              <div class="tab_panel active">
+                <a href="#"><img src="images/recruit.png"></a>
+              </div>      
+              <!-- <div class="tab_panel">
+                <h3>正社員</h3>
+                <p>勤務：月～金　9:00-17:00</p>
+                <p>休日：土日・祝祭日・GW</p>
+                <p>給与：月給200,000～</p>  
+              </div>
+              <div class="tab_panel">
+                <h3>パート社員</h3>
+                <p>勤務：週3～4日　3hから</p>
+                <p>休日：勤務日以外</p>
+                <pi>給与：時給￥1,000</p>
+                </div>
+              </div>
+            </div>  -->
+          </div>
+          <div class="company_item" id="section01"><a href="#"><img src="images/company.png"></a></div>
+          <div class="company_item" id="section04"><a href="#"><img src="images/contact.png"></a></div>
+        </section>
+      </main>
+      <footer class="page_footer_wrapper">
+        <div class="footer_logo_menu">
+          <div class="footer_logo">
+            <a href="#"><img src="images/footer_logo.png" alt="蒼乃建設ロゴ"></a>
+          </div>
+          <nav class="footer_menu">
+            <ul>
+              <li><a href="#section01">企業理念</a></li>
+              <li><a href="#section02">施工事例</a></li>
+              <li><a href="#section03">採用情報</a></li>
+              <li><a href="#section04">お問い合わせ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer">Copyright © 2020 Aono Corporation.</p>
+      </footer>
+    </div>
+    <div id="pagetop"><a href="#">TOPに戻る</a></div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- <script src="slick.js" type="text/javascript"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $('a[href^="#"]').click(function(){//ページ内スクロール
+          var elmHash=$(this).attr('href');
+          var pos=$(elmHash).offset().top;
+          $('body,html').animate({scrollTop:pos},500);
+          return false;
+        });
+          
+      $(function(){ //topに戻るボタンの操作
+        var pagetop=$('#pagetop');
+        pagetop.hide(); //ボタン非表示
+        
+        $(window).scroll(function(){ //300pxスクロールしたらボタン表示
+          if($(this).scrollTop()>300){
+            pagetop.fadeIn();
+          } else{
+            pagetop.fadeOut();
+          }
+        });
+        pagetop.click(function(){
+          $('body,html').animate({scrollTop:0},500);
+          return false;
+        });
+      });
+
+      $(function(){//スクロールでふわっと出てくる(1)
+        var effect_position=5;
+        var effect_move=130;
+        var effect_time=800;
+        //フェードする前のCSS
+        $('.scroll-fade').css({
+          opacity:0,
+          transform:'translateY('+effect_move+'px)',
+          transition:effect_time+'ms'
+        });
+        //スクロールかロードする度に実行
+        $(window).on('scroll load',function(){
+          var scroll_top=$(this).scrollTop();
+          var scroll_btm=scroll_top+$(this).height();
+          effect_position=scroll_btm-effect_position;
+          //effect_positionがthis_positionを超えたらエフェクト発動
+          $('.scroll-fade').each(function(){
+            var this_position=$(this).offset().top;
+            if(effect_position>this_position){
+              $(this).css({
+                opacity:1,
+                transform:'translateY(0)'
+              });
+            }
+          });
+        });
+      });
+
+      $(function(){//スクロールでふわっと出てくる(2)
+        var effect_btm=150;
+        var effect_move=200;
+        var effect_time=800;
+        //フェードする前のCSS(親)
+        $('.company').css({
+          opacity:0,
+        });
+        $('.company').children().each(function(){//(子)
+          $(this).css({
+            opacity:0,
+            transform:'translateY('+effect_move+'px)',
+            transition:effect_time+'ms'
+          });
+        });
+        //スクロールかロードする度に実行
+        $(window).on('scroll',function(){
+          var scroll_top=$(this).scrollTop();
+          var scroll_btm=scroll_top+$(this).height();
+          effect_position=scroll_btm-effect_btm;
+          //エフェクト発動で子要素を時差でフェードイン
+          $('.company').each(function(){
+            var this_position=$(this).offset().top;
+            if(effect_position>this_position){
+              $(this).css({
+                opacity:1,
+                transform:'translateY(0)'
+              });
+              $(this).children().each(function(i){
+                $(this).delay(100+i*200).queue(function(){
+                  $(this).css({
+                    opacity:1,
+                    transform:'translateY(0)'
+                  }).dequeue();
+                });
+              });
+            }
+          });
+        });
+      });
+
+      $(function(){//タブメニュー
+        $('.tab_menu').on('click',function(){//タブをclickしたら
+          $('.tab_item').removeClass('active');//タブ現在地クラスを削除
+          $($(this).attr('id')).addClass('active');//clickしたタブに現在地クラスを付与
+          $('.tab_menu').removeClass('active');
+          $(this).addClass('active');
+        });
+        $('.tab_menu').click(function(){
+          $('.tab_item').css('display','none');
+          $($(this).attr('id')).fadeIn(500).addClass('active');
+        });
+      });
+
+      $(function(){//スライダー
+        $('.slider').slick({
+          autoplay:true,
+          autoplaySpeed:4000,
+          dots:true,//今回は画像内に設置
+          arrows:true,
+          infinite:true,
+          pauseOnHover:false
+        });
+      });
+
+      $(function(){//ハンバーガーメニュー
+        $('#drawer_toggle').click(function(){
+          $(this).toggleClass('open');
+          $('#global_nav').toggleClass('sp_open');
+        });
+        $('header_menu li').on('click',function(){
+          $('#global_nav').removeClass('sp_open');
+        });
+      });
+
+      $(function(){//アコーデイオンメニュー
+        $(".deteil").on('click',function(){
+          $(this).next().slideToggle();
+        });
+      })
+
+      $(function(){//モーダルウィンドウ
+        $('.js-modal-open').on('click',function(){
+          $('body').css('overflow-y','hidden');
+          $('.js-modal').show();
+          return false; 
+        });
+        $('.js-modal-close').on('click',function(){
+          $('.js-modal').hide();
+          return false;
+          $('body').css('overflow-y','auto');
+        });
+      });
+      
+      // $('.js-modal-open').on('click',function(){ //モーダルウィンドウ表示
+      //   $('.js-modal').fadeIn();
+      //   return false;
+      // });
+      // $('.js-modal-close').on('click',function(){
+      //   $('.js-modal').fadeOut();
+      //   return false;
+      // });
+               
+      // $(function(){//スライドショーの予定
+      //   var grayDisplay=$('#gray-display');
+      //   var largeImg=$('#large-img');
+      //   var gallary=$('.gallary');
+
+      //   grayDisplay.hide();
+      //   largeImg.hide();
+      //   gallary.hide();
+
+      //   $(".main_build_menu h4").click(function(){
+      //     const targetImg=$(this).attr('gallary');
+      //     grayDisplay.show();
+      //     largeImg.append(`<gallary="${targetImg}">`);
+      //     largeImg.show();
+
+      //     grayDisplay.click(function(){
+      //       $(this).next().fadeOut(200,function(){
+      //         grayDisplay.hide();
+      //         largeImg.children().remove();
+      //       });
+      //     });
+      //     return false;
+      //   });
+      // });
+
+    </script>
+  </body>
